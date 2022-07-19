@@ -28,11 +28,11 @@ class Decipherer {
     }
 
     public static void main (String[] args) {
-
+        //je stock mes messages à décoder
         String message1 = "0@sn9sirppa@#?ia'jgtvryko1";
         String message2 = "q8e?wsellecif@#?sel@#?setuotpazdsy0*b9+mw@x1vj";
         String message3 = "aopi?sedohtém@#?sedhtmg+p9l!";
-              
+        //je traduis les messages secret
         String secret1 = décoder(message1);
         String secret2 = décoder(message2);
         String secret3 = décoder(message3);
